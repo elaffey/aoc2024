@@ -32,6 +32,7 @@ pub fn part1() {
     // dbg!(left);
 }
 
+#[allow(dead_code)]
 pub fn part2() {
     let mut left: HashMap<i32, i32> = HashMap::new();
     let mut right: HashMap<i32, i32> = HashMap::new();

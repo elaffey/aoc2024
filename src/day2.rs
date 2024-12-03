@@ -61,6 +61,7 @@ fn check(nums: &Vec<i32>, increasing: bool) -> (bool, usize, usize) {
     (s, i1, i2)
 }
 
+#[allow(dead_code)]
 pub fn part2() {
     let mut count = 0;
     std::fs::read_to_string("inputs/day2.txt")
